@@ -1,0 +1,14 @@
+{
+  "name": "@yishitec/easy-exceljs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^3.7.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "np": "^5.2.1",
+    "open": "^7.0.2"
+  }
+}
