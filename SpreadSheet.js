@@ -1,3 +1,6 @@
+const _ = require('lodash');
+const ExcelJS = require('exceljs');
+
 class SpreadSheet {
   static ensureArray(strOrArray = []) {
     let ret = strOrArray;
@@ -182,6 +185,10 @@ class SpreadSheet {
   }
   async writeXlsx(path) {
     await this.workbook.xlsx.writeFile(path);
+  }
+  async toXlsxBuffer() {
+    const buffer = await this.workbook.xlsx.writeBuffer();
+    return buffer;
   }
 }
 
