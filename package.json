@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "exceljs": "^3.7.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "np": "^5.2.1",
